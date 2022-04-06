@@ -59,7 +59,7 @@ class Solution{
     int countSetBits(int n)
     {
         // Your logic here
-        //Naive approach 
+      
         if( n == 0) return 0;
         
         int x = power_of_2(n);
