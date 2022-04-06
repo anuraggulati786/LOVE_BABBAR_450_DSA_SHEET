@@ -12,6 +12,7 @@ class Solution{
     public:
     // n: input to count the number of set bits
     //Function to return sum of count of set bits in the integers from 1 to n.
+	// time complexity for naive is O(N log N) .... gave TLE during submission .........
     int countSetBits(int n)
     {
         // Your logic here
