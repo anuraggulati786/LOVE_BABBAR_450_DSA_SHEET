@@ -14,7 +14,8 @@ public:
        }
        
        while(low<=high){
-           int mid = (low + high)/2;
+           int mid = (low + high)/2;  // or we write like this 
+	       //int mid = (low + high) >> 1;
            
            if(arr[mid] > arr[mid+1]){
                return arr[mid+1];
